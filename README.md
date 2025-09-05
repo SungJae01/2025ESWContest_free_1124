@@ -49,6 +49,7 @@
 📦 voice-auth-system/
  ┣ profiles/                             # 사용자 프로필 폴더
  ┣ ai_detector.py                        # AI 음성 탐지기 (ResNet 기반)
+ ┣ search_device.py                      # 오디오 디바이스 검색
  ┣ voice_doorlock_single_auth_ver.py     # 메인 UI 및 기능 코드 (단일 인증 과정)
  ┣ voice_doorlock_double_auth_ver.py     # 메인 UI 및 기능 코드 (이중 인증 과정)
  ┣ ecapa_model/               # ECAPA 모델 저장 경로
@@ -64,7 +65,7 @@
 pip install -r requirements.txt
 
 # 2. 프로젝트 실행
-python voice_login_main.py
+python voice_doorlock_single_auth_ver.py
 ```
 
 requirements.txt 파일 읽어보기
